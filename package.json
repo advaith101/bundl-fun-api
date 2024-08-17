@@ -1,0 +1,27 @@
+{
+  "name": "bundl-fun-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@flashbots/ethers-provider-bundle": "^1.0.0",
+    "@openzeppelin/contracts": "^5.0.1",
+    "axios": "^1.7.3",
+    "dotenv": "^16.4.5",
+    "ethers": "6.7.1",
+    "express": "^4.19.2",
+    "pg": "^8.12.0",
+    "sequelize": "^6.37.3",
+    "solc": "^0.8.26"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
